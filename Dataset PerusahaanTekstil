@@ -1,0 +1,70 @@
+group: PerusahaanTekstil
+DaftarPelanggan = {
+kodePerusahaan, namaPerusahaan, kodeKain, kota
+'A001', 'PT KEMAS SARANA MULTIGUNA', 'K007', 'Bandung'
+'A002', 'PT AGUNG BUSANA JAYA', 'K004', 'Jakarta'
+'A003', 'PT WAHYU TRI TUNGGAL', 'K002', 'Malang'
+'A004', 'PT MENDALIKA ADI PRATAMA', 'K005', 'Jakarta'
+'A005', 'PT VISION GLOBAL APPAREL', 'K002', 'Surabaya'
+'A006', 'PT BALTAZAR', 'K003', 'Denpasar'
+'A007', 'PT AIRIN GRAHA PERSAHA', 'K001', 'Malang'
+'A008', 'PT YEON HEUNG MEGASARI', 'K005', 'Bandung'
+'A009', 'PT BBC KONVEKSI', 'K001', 'Malang'
+'A010', 'PT DAEYU INDONESIA', 'K006', 'Jakarta'
+}
+JenisKain = {
+jenisKain, kodeKain, harga
+'Kain Katun', 'K001', 30000
+'Kain Poliester', 'K002', 40000
+'Kain Sutra', 'K003', 100000
+'Kain Sifon', 'K004', 30000
+'Kain Rayon', 'K005', 35000
+'Kain Fleece', 'K006', 50000
+'Kain Linen', 'K007', 40000
+}
+InformasiPembayaranPelanggan = {
+kodePerusahaan, pembayaran, metode
+'A006', 100000, 'Transfer'
+'A009', 30000, 'Transfer'
+'A002', 30000, 'Tunai'
+'A001', 40000, 'Transfer'
+'A007', 30000, 'Transfer'
+'A010', 50000, 'Transfer'
+'A004', 35000, 'Tunai'
+'A005', 40000, 'Transfer'
+'A003', 40000, 'Tunai'
+'A008', 35000, 'Transfer'
+}
+DataStaff = {
+kodeStaff, fName, lName, gender, umur
+'KT 01', 'Clarissa', 'Ahnaf', 'F', 26
+'PS 17', 'Nacita', 'Jani', 'F', 36
+'UR 23', 'Zhirus', 'Saliba', 'F', 38
+'SF 12', 'Karvian', 'Delvon', 'M', 30
+'RY 04', 'Andre', 'Danuarta', 'M', 31
+'FC 09', 'Elfani', 'Azarani', 'F', 29
+'LN 18', 'Calderioz', 'Galanger', 'M', 40
+}
+KomplainPelanggan = {
+kodePerusahaan, komplain, tanggal
+'A010', 'Kain sobek', '14-Mei-20'
+'A004', 'Kain kotor', '5-Juni-20'
+'A007', 'Kain kurang', '31-Juni-20'
+'A001', 'Kain sobek', '22-Juli-20'
+'A002', 'Kain kotor', '7-Agust-20'
+}
+TindakanKomplain  = {
+kodePerusahaan, status
+'A007', 'Selesai'
+'A010', 'Proses'
+'A002', 'Selesai'
+'A004', 'Gagal'
+}
+DaftarCabang = {
+kodeCabang, kotaCabang, alamat, status
+'B001', 'Surabaya', 'Jl. Sukolilo No. 9', 'Kantor Pusat'
+'B002', 'Jogja', 'Jl. Malioboro No. 37', 'Cabang'
+'B003', 'Bandung', 'Jl. Lautan Api No. 56', 'Cabang'
+'B004', 'Jakarta', 'Jl. Batavia No. 102', 'Cabang'
+'B005', 'Denpasar', 'Jl. Renon No.67', 'Cabang'
+}
